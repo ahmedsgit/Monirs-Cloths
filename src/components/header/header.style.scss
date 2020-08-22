@@ -1,6 +1,9 @@
 .header {
-  height: 70px;
+  background-color: #ededed;
+  height: 80px;
   width: 100%;
+  top: 0;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
@@ -8,7 +11,10 @@
   .logo-container {
     height: 100%;
     width: 70px;
-    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
   }
 
   .options {
@@ -19,8 +25,11 @@
     justify-content: flex-end;
     text-transform: uppercase;
 
-    .option {
+    .options {
       padding: 10px 15px;
+    }
+    .options:last-child {
+      padding-right: 10%;
     }
   }
 }
